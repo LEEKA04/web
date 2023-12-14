@@ -1,0 +1,42 @@
+*{margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;     
+ }
+
+ a:link {color: rgb(255, 255, 255);}
+ a:hover {color: rgb(255, 157, 157);}
+ a:active {color: rgb(0, 0, 0);}
+ a:visited {color: blanchedalmond;}
+
+
+    header
+    {
+        height: 160px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    nav{
+        height: 70px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
+    nav ul
+        {width: 1100px; 
+        display: flex;
+        justify-content: space-between;
+        }
+    nav ul li a{
+        display: block;
+        width: 220px;
+        text-align: center;
+        font-family: 'Nanum Myeongjo', serif;
+        }
+    section{margin: auto;justify-content: center;display: flex; }
+    
